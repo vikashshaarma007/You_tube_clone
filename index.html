@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOU TUBE</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    #container {
+        border: solid;
+        margin: 0px;
+        height: 84vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    #playbox {
+        /* border: solid red; */
+        height: 80%;
+        width: 60%;
+    }
+    
+    #playlist {
+        /* border: solid blue; */
+        height: 80%;
+        width: 40%;
+    }
+    
+    #playbox video {
+        height: 100%;
+        width: 100%;
+    }
+    
+    body {
+        background-color: black;
+    }
+    
+    #logo {
+        position: relative;
+    }
+</style>
+
+<body>
+    <div id="lodo"><img src="./images/new-youtube-logo-removebg-preview.png" alt="" height="100px"></div>
+    <section id="container">
+        <article id="playbox">
+            playbox
+            <video src="" id="playbox video"></video>
+        </article>
+        <article id="playlist">playlist</article>
+    </section>
+
+    <script src="./data.js"></script>
+
+</body>
+
+</html>
